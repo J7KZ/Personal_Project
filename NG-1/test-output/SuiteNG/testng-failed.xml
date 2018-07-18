@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SuiteNG]">
+  <test thread-count="5" name="TestNG_XML(failed)">
+    <classes>
+      <class name="com.epam.olga_eremkina.testng.RectangleTest">
+        <methods>
+          <include name="rectangleSquare" invocation-numbers="6 9 10 11"/>
+          <include name="rectangleIsQuadrate" invocation-numbers="1 2 3 4"/>
+        </methods>
+      </class> <!-- com.epam.olga_eremkina.testng.RectangleTest -->
+      <class name="com.epam.olga_eremkina.testng.QuadrateTest">
+        <methods>
+          <include name="quadrateLenght" invocation-numbers="0 1 2 3 4 5 6 7 8 9"/>
+        </methods>
+      </class> <!-- com.epam.olga_eremkina.testng.QuadrateTest -->
+    </classes>
+  </test> <!-- TestNG_XML(failed) -->
+</suite> <!-- Failed suite [SuiteNG] -->

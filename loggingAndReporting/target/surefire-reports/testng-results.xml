@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[12 Jul 2018 16:37:47 TRACE          test.java.someArea.VerifyLoggingAndReportsTest#  20: Starting 'TEST-123 Verify Logging and Reporting in tests.'.
+]]>
+    </line>
+    <line>
+      <![CDATA[12 Jul 2018 16:37:47 DEBUG          test.java.someArea.VerifyLoggingAndReportsTest#  21: 1. Login as emplyee.
+]]>
+    </line>
+    <line>
+      <![CDATA[12 Jul 2018 16:37:47  INFO          test.java.someArea.VerifyLoggingAndReportsTest#  22: 2. In the pay period drop-down menu, select Current pay period.
+]]>
+    </line>
+    <line>
+      <![CDATA[12 Jul 2018 16:37:47  WARN          test.java.someArea.VerifyLoggingAndReportsTest#  23: 3. Make an In-punch for Friday for  and an Out-Punch for Thuesday, and click save.
+]]>
+    </line>
+    <line>
+      <![CDATA[12 Jul 2018 16:37:47 ERROR          test.java.someArea.VerifyLoggingAndReportsTest#  24: 4. Click Search in the right pane through the login button.
+]]>
+    </line>
+    <line>
+      <![CDATA[12 Jul 2018 16:37:47 FATAL          test.java.someArea.VerifyLoggingAndReportsTest#  25: 5. Click the Employee workspace.
+]]>
+    </line>
+    <line>
+      <![CDATA[12 Jul 2018 16:37:47  INFO          test.java.someArea.VerifyLoggingAndReportsTest#  33: Expected result: Punches saved successfully.
+]]>
+    </line>
+    <line>
+      <![CDATA[12 Jul 2018 16:37:47  INFO          test.java.someArea.VerifyLoggingAndReportsTest#  40: 6. Delete the out-punch of PunchOut, hit the tab button and click save.
+]]>
+    </line>
+    <line>
+      <![CDATA[12 Jul 2018 16:37:47  INFO          test.java.someArea.VerifyLoggingAndReportsTest#  41: Expected result: Out-punch deleted, exception appears and timecard saved successfully.
+]]>
+    </line>
+    <line>
+      <![CDATA[12 Jul 2018 16:37:47  INFO          test.java.someArea.VerifyLoggingAndReportsTest#  47: Cleanup: remove created something
+]]>
+    </line>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="56" started-at="2018-07-12T13:37:47Z" finished-at="2018-07-12T13:37:47Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="56" started-at="2018-07-12T13:37:47Z" finished-at="2018-07-12T13:37:47Z">
+      <class name="test.java.someArea.VerifyLoggingAndReportsTest">
+        <test-method status="PASS" signature="preliminarySteps()[pri:0, instance:test.java.someArea.VerifyLoggingAndReportsTest@60f82f98]" name="preliminarySteps" is-config="true" duration-ms="15" started-at="2018-07-12T16:37:47Z" finished-at="2018-07-12T16:37:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[12 Jul 2018 16:37:47 TRACE          test.java.someArea.VerifyLoggingAndReportsTest#  20: Starting 'TEST-123 Verify Logging and Reporting in tests.'.
+]]>
+            </line>
+            <line>
+              <![CDATA[12 Jul 2018 16:37:47 DEBUG          test.java.someArea.VerifyLoggingAndReportsTest#  21: 1. Login as emplyee.
+]]>
+            </line>
+            <line>
+              <![CDATA[12 Jul 2018 16:37:47  INFO          test.java.someArea.VerifyLoggingAndReportsTest#  22: 2. In the pay period drop-down menu, select Current pay period.
+]]>
+            </line>
+            <line>
+              <![CDATA[12 Jul 2018 16:37:47  WARN          test.java.someArea.VerifyLoggingAndReportsTest#  23: 3. Make an In-punch for Friday for  and an Out-Punch for Thuesday, and click save.
+]]>
+            </line>
+            <line>
+              <![CDATA[12 Jul 2018 16:37:47 ERROR          test.java.someArea.VerifyLoggingAndReportsTest#  24: 4. Click Search in the right pane through the login button.
+]]>
+            </line>
+            <line>
+              <![CDATA[12 Jul 2018 16:37:47 FATAL          test.java.someArea.VerifyLoggingAndReportsTest#  25: 5. Click the Employee workspace.
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- preliminarySteps -->
+        <test-method status="PASS" signature="checkPunchesSavedSuccessfullyTest()[pri:0, instance:test.java.someArea.VerifyLoggingAndReportsTest@60f82f98]" name="checkPunchesSavedSuccessfullyTest" duration-ms="2" started-at="2018-07-12T16:37:47Z" finished-at="2018-07-12T16:37:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[12 Jul 2018 16:37:47  INFO          test.java.someArea.VerifyLoggingAndReportsTest#  33: Expected result: Punches saved successfully.
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkPunchesSavedSuccessfullyTest -->
+        <test-method status="PASS" signature="checkTrueIsTrueTest()[pri:0, instance:test.java.someArea.VerifyLoggingAndReportsTest@60f82f98]" name="checkTrueIsTrueTest" duration-ms="1" started-at="2018-07-12T16:37:47Z" depends-on-methods="test.java.someArea.VerifyLoggingAndReportsTest.checkPunchesSavedSuccessfullyTest" finished-at="2018-07-12T16:37:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[12 Jul 2018 16:37:47  INFO          test.java.someArea.VerifyLoggingAndReportsTest#  40: 6. Delete the out-punch of PunchOut, hit the tab button and click save.
+]]>
+            </line>
+            <line>
+              <![CDATA[12 Jul 2018 16:37:47  INFO          test.java.someArea.VerifyLoggingAndReportsTest#  41: Expected result: Out-punch deleted, exception appears and timecard saved successfully.
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkTrueIsTrueTest -->
+        <test-method status="PASS" signature="cleanup()[pri:0, instance:test.java.someArea.VerifyLoggingAndReportsTest@60f82f98]" name="cleanup" is-config="true" duration-ms="0" started-at="2018-07-12T16:37:47Z" finished-at="2018-07-12T16:37:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[12 Jul 2018 16:37:47  INFO          test.java.someArea.VerifyLoggingAndReportsTest#  47: Cleanup: remove created something
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+      </class> <!-- test.java.someArea.VerifyLoggingAndReportsTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

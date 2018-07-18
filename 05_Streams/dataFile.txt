@@ -1,0 +1,10 @@
+freshCucumberWeight = 150
+saltyCucumberWeight = 120
+cannedGreenPeasWeight = 200
+boiledPotatoWeight = 220
+boiledCarrotWeight = 180
+boiledBeetWeight = 160
+onionWeight = 100
+sourCabbageWeight = 110
+sunflowerOilTablespoons = 3
+saltTablespoons = 0.2

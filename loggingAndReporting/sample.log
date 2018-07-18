@@ -1,0 +1,10 @@
+17 Jul 2018 17:23:09 TRACE          test.java.someArea.VerifyLoggingAndReportsTest#  20: Starting 'TEST-123 Verify Logging and Reporting in tests.'.
+17 Jul 2018 17:23:09 DEBUG          test.java.someArea.VerifyLoggingAndReportsTest#  21: 1. Login as emplyee.
+17 Jul 2018 17:23:09  INFO          test.java.someArea.VerifyLoggingAndReportsTest#  22: 2. In the pay period drop-down menu, select Current pay period.
+17 Jul 2018 17:23:09  WARN          test.java.someArea.VerifyLoggingAndReportsTest#  23: 3. Make an In-punch for Friday for  and an Out-Punch for Thuesday, and click save.
+17 Jul 2018 17:23:09 ERROR          test.java.someArea.VerifyLoggingAndReportsTest#  24: 4. Click Search in the right pane through the login button.
+17 Jul 2018 17:23:09 FATAL          test.java.someArea.VerifyLoggingAndReportsTest#  25: 5. Click the Employee workspace.
+17 Jul 2018 17:23:09  INFO          test.java.someArea.VerifyLoggingAndReportsTest#  33: Expected result: Punches saved successfully.
+17 Jul 2018 17:23:09  INFO          test.java.someArea.VerifyLoggingAndReportsTest#  40: 6. Delete the out-punch of PunchOut, hit the tab button and click save.
+17 Jul 2018 17:23:09  INFO          test.java.someArea.VerifyLoggingAndReportsTest#  41: Expected result: Out-punch deleted, exception appears and timecard saved successfully.
+17 Jul 2018 17:23:09  INFO          test.java.someArea.VerifyLoggingAndReportsTest#  47: Cleanup: remove created something

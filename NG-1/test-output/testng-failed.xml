@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="classes">
+  <test thread-count="1" name="AllTests(failed)" parallel="classes">
+    <parameter name="a" value="8"/>
+    <parameter name="b" value="9"/>
+    <parameter name="isQuadrate" value="false"/>
+    <classes>
+      <class name="com.epam.olga_eremkina.testng.QuadrateTest">
+        <methods>
+          <include name="quadrateLenght" invocation-numbers="0 1 2 3 4 5 6 7 8 9"/>
+        </methods>
+      </class> <!-- com.epam.olga_eremkina.testng.QuadrateTest -->
+      <class name="com.epam.olga_eremkina.testng.RectangleTest">
+        <methods>
+          <include name="rectangleIsQuadrate" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.epam.olga_eremkina.testng.RectangleTest -->
+    </classes>
+  </test> <!-- AllTests(failed) -->
+  <test thread-count="1" name="RectangleTest1(failed)" parallel="classes">
+    <parameter name="a" value="4"/>
+    <parameter name="b" value="6"/>
+    <parameter name="isQuadrate" value="false"/>
+    <classes>
+      <class name="com.epam.olga_eremkina.testng.RectangleTest">
+        <methods>
+          <include name="rectangleIsQuadrate" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.epam.olga_eremkina.testng.RectangleTest -->
+    </classes>
+  </test> <!-- RectangleTest1(failed) -->
+  <test thread-count="1" name="RectangleTest3(failed)" parallel="classes">
+    <parameter name="a" value="1"/>
+    <parameter name="b" value="2"/>
+    <parameter name="isQuadrate" value="false"/>
+    <classes>
+      <class name="com.epam.olga_eremkina.testng.RectangleTest">
+        <methods>
+          <include name="rectangleIsQuadrate" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.epam.olga_eremkina.testng.RectangleTest -->
+    </classes>
+  </test> <!-- RectangleTest3(failed) -->
+  <test thread-count="1" name="RectangleTest4(failed)" parallel="classes">
+    <parameter name="a" value="2"/>
+    <parameter name="b" value="3"/>
+    <parameter name="isQuadrate" value="false"/>
+    <classes>
+      <class name="com.epam.olga_eremkina.testng.RectangleTest">
+        <methods>
+          <include name="rectangleIsQuadrate" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.epam.olga_eremkina.testng.RectangleTest -->
+    </classes>
+  </test> <!-- RectangleTest4(failed) -->
+  <test thread-count="1" name="RectangleTest5(failed)" parallel="classes">
+    <parameter name="a" value="3"/>
+    <parameter name="b" value="4"/>
+    <parameter name="isQuadrate" value="false"/>
+    <classes>
+      <class name="com.epam.olga_eremkina.testng.RectangleTest">
+        <methods>
+          <include name="rectangleIsQuadrate" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.epam.olga_eremkina.testng.RectangleTest -->
+    </classes>
+  </test> <!-- RectangleTest5(failed) -->
+  <test thread-count="1" name="RectangleTest6(failed)" parallel="classes">
+    <parameter name="a" value="5"/>
+    <parameter name="b" value="8"/>
+    <parameter name="isQuadrate" value="false"/>
+    <classes>
+      <class name="com.epam.olga_eremkina.testng.RectangleTest">
+        <methods>
+          <include name="rectangleIsQuadrate" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.epam.olga_eremkina.testng.RectangleTest -->
+    </classes>
+  </test> <!-- RectangleTest6(failed) -->
+  <test thread-count="1" name="RectangleTest7(failed)" parallel="classes">
+    <parameter name="a" value="6"/>
+    <parameter name="b" value="1"/>
+    <parameter name="isQuadrate" value="false"/>
+    <classes>
+      <class name="com.epam.olga_eremkina.testng.RectangleTest">
+        <methods>
+          <include name="rectangleSquare" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.epam.olga_eremkina.testng.RectangleTest -->
+    </classes>
+  </test> <!-- RectangleTest7(failed) -->
+  <test thread-count="1" name="RectangleTest8(failed)" parallel="classes">
+    <parameter name="a" value="7"/>
+    <parameter name="b" value="9"/>
+    <parameter name="isQuadrate" value="false"/>
+    <classes>
+      <class name="com.epam.olga_eremkina.testng.RectangleTest">
+        <methods>
+          <include name="rectangleIsQuadrate" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.epam.olga_eremkina.testng.RectangleTest -->
+    </classes>
+  </test> <!-- RectangleTest8(failed) -->
+  <test thread-count="1" name="RectangleTest9(failed)" parallel="classes">
+    <parameter name="a" value="9"/>
+    <parameter name="b" value="-5"/>
+    <parameter name="isQuadrate" value="false"/>
+    <classes>
+      <class name="com.epam.olga_eremkina.testng.RectangleTest">
+        <methods>
+          <include name="rectangleSquare" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.epam.olga_eremkina.testng.RectangleTest -->
+    </classes>
+  </test> <!-- RectangleTest9(failed) -->
+  <test thread-count="1" name="RectangleTest10(failed)" parallel="classes">
+    <parameter name="a" value="-5"/>
+    <parameter name="b" value="3"/>
+    <parameter name="isQuadrate" value="false"/>
+    <classes>
+      <class name="com.epam.olga_eremkina.testng.RectangleTest">
+        <methods>
+          <include name="rectangleSquare" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.epam.olga_eremkina.testng.RectangleTest -->
+    </classes>
+  </test> <!-- RectangleTest10(failed) -->
+  <test thread-count="1" name="RectangleTest11(failed)" parallel="classes">
+    <parameter name="a" value="-8"/>
+    <parameter name="b" value="-6"/>
+    <parameter name="isQuadrate" value="false"/>
+    <classes>
+      <class name="com.epam.olga_eremkina.testng.RectangleTest">
+        <methods>
+          <include name="rectangleSquare" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.epam.olga_eremkina.testng.RectangleTest -->
+    </classes>
+  </test> <!-- RectangleTest11(failed) -->
+  <test thread-count="1" name="RectangleTest12(failed)" parallel="classes">
+    <parameter name="a" value="10"/>
+    <parameter name="b" value="12"/>
+    <parameter name="isQuadrate" value="false"/>
+    <classes>
+      <class name="com.epam.olga_eremkina.testng.RectangleTest">
+        <methods>
+          <include name="rectangleIsQuadrate" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.epam.olga_eremkina.testng.RectangleTest -->
+    </classes>
+  </test> <!-- RectangleTest12(failed) -->
+  <test thread-count="1" name="RectangleTest13(failed)" parallel="classes">
+    <parameter name="a" value="-52"/>
+    <parameter name="b" value="78"/>
+    <parameter name="isQuadrate" value="false"/>
+    <classes>
+      <class name="com.epam.olga_eremkina.testng.RectangleTest">
+        <methods>
+          <include name="rectangleIsQuadrate" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.epam.olga_eremkina.testng.RectangleTest -->
+    </classes>
+  </test> <!-- RectangleTest13(failed) -->
+</suite> <!-- Failed suite [Suite] -->
