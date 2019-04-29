@@ -3,9 +3,8 @@
  */
 package com.epam.olga_eremkina.testng;
 
-import org.testng.annotations.Test;
-
 import org.testng.Assert;
+import org.testng.annotations.Test;
 
 import epam.saratov.homeWork.testng.objects.GeometricObjects;
 

@@ -1,6 +1,3 @@
-/**
- * 
- */
 package com.epam.olga_eremkina.java.lession3.data;
 
 import java.util.Calendar;
@@ -22,8 +19,8 @@ public class AddingStudentsAndCurriculums {
     private static final int ONE = 1;
     private static final int ZERO = 0;
 
-    public static final String[] courseTitle = new String[] { "Технология Java Servlets", "Structs Framework",
-	    "Обзор технологий Java", "Библиотека JFC/Swing", "Технология JDBC" };
+    public static final String[] courseTitle = new String[] { "РўРµС…РЅРѕР»РѕРіРёСЏ Java Servlets", "Structs Framework",
+	    "РћР±Р·РѕСЂ С‚РµС…РЅРѕР»РѕРіРёР№ Java", "Р‘РёР±Р»РёРѕС‚РµРєР° JFC/Swing", "РўРµС…РЅРѕР»РѕРіРёСЏ JDBC" };
     
     public static final String[] cirriculumAndNameTitle = new String[] { "Ivanov Ivan", "Petrov Petr",
 	    "J2EE Developer", "Java Developer" };

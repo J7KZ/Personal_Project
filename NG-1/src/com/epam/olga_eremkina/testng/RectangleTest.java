@@ -3,11 +3,10 @@
  */
 package com.epam.olga_eremkina.testng;
 
+import org.testng.Assert;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
-
-import org.testng.Assert;
 
 import epam.saratov.homeWork.testng.objects.GeometricObjects;
 
@@ -22,10 +21,10 @@ public class RectangleTest {
     @Test(priority = 1)
 
     public void rectangleSquare(@Optional("3") int a, @Optional("4") int b) {
-	// Обе строки появляются во всех тестах, проще их вынести
+	// пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 	a = Math.abs(a);
 	b = Math.abs(b);
-	// объект тоже вынести
+	// пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 	GeometricObjects rectangle = new GeometricObjects();
 	double squareRec = a * b;
 	double testRec = rectangle.getRectangle(a, b).getSquare();
